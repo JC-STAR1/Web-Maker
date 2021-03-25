@@ -1,0 +1,14 @@
+{
+  "name": "web-maker",
+  "version": "1.0.0",
+  "description": "Esta aplicacion permite realizar paginas web sin tocar ninguna linea de codigo.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "JC STAR",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.3.0"
+  }
+}

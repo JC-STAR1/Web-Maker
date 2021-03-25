@@ -1,0 +1,188 @@
+body {
+  font-family: oboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  overflow: hidden;
+}
+
+.toppanel {
+  background-color: rgb(22, 27, 34);
+  position: relative;
+  width: 100%;
+  height: 30px;
+  z-index: 1;
+  -webkit-app-region: drag;
+}
+
+.toppanel nav {
+  display: flex;
+  list-style: none;
+  -webkit-app-region: no-drag;
+}
+
+.toppanel li {
+  padding: 4.5px;
+  -webkit-app-region: no-drag;
+}
+
+.toppanel li:hover {
+  cursor: default;
+  background-color: rgb(40, 48, 58);
+}
+
+.leftpanel {
+  background-color: rgb(40, 48, 58);
+  position: fixed;
+  left: 0px;
+  height: 100%;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.leftpanel ul {
+  width: 60px;
+  height: 60px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.leftpanel li {
+  list-style: none;
+}
+
+.leftpanel li i {
+  font-size: 50px;
+  margin-left: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.leftpanel ul :hover {
+  cursor: pointer;
+  background-color: rgb(47, 54, 64);
+}
+
+.leftpanel .fa.fa-times {
+  font-size: 55px;
+  padding-left: 3px;
+}
+
+.leftpanel .fa.fa-wrench {
+  margin-left: 5px;
+}
+
+.leftpanel .fa.fa-cog {
+  margin-left: -1px;
+  padding-left: 5px;
+}
+
+.newEC {
+  display: none;
+  position: fixed;
+  left: 25%;
+  top: 25%;
+  width: 620px;
+  height: 340px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.logo {
+  position: relative;
+  top: 0px;
+  -webkit-app-region: no-drag;
+}
+
+.toppanel .panel {
+  top: 0px;
+  position: fixed;
+  left: 30px;
+  -webkit-app-region: no-drag;
+}
+
+.cp {
+  display: inline;
+  -webkit-app-region: no-drag;
+}
+
+.be {
+  display: inline-block;
+  padding: 10px;
+  right: 0px;
+  position: absolute;
+  -webkit-app-region: no-drag;
+}
+
+.be:hover {
+  background-color: rgb(60, 66, 75);
+}
+
+#bmm {
+  display: contents;
+  -webkit-app-region: no-drag;
+}
+
+.bMm {
+  display: inline-block;
+  padding: 10px;
+  right: 30px;
+  position: absolute;
+  -webkit-app-region: no-drag;
+}
+
+.bMm.hide {
+  display: none;
+}
+
+.bMm:hover {
+  background-color: rgb(60, 66, 75);
+}
+
+.bmM {
+  display: inline-block;
+  padding: 10px;
+  right: 30px;
+  position: absolute;
+  -webkit-app-region: no-drag;
+}
+
+.bmM.hide {
+  display: none;
+}
+
+.bmM:hover {
+  background-color: rgb(60, 66, 75);
+}
+
+.bm {
+  display: inline-block;
+  padding: 10px;
+  right: 60px;
+  position: absolute;
+  -webkit-app-region: no-drag;
+}
+
+.bm:hover {
+  background-color: rgb(60, 66, 75);
+}
+
+.rightpanel {
+  width: 400px;
+  height: 100%;
+  right: 0px;
+  position: absolute;
+  background-color: rgb(60, 66, 75);
+  z-index: 1;
+}
+
+.espaciodetrabajo {
+  margin-left: 60px;
+  margin-right: 100px;
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}

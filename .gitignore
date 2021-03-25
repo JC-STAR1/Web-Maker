@@ -1,0 +1,7 @@
+# dependencias
+/node_modules
+
+# pruebas
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
